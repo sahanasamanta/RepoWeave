@@ -1,0 +1,17 @@
+{
+  "name": "repo-analyzer",
+  "version": "1.0.0",
+  "description": "GitHub Repository Dependency Analyzer",
+  "main": "index.js",
+  "dependencies": {
+    "serverless-python-requirements": "^6.0.0"
+  },
+  "devDependencies": {
+    "serverless": "^4.33.0"
+  },
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
+  "author": "",
+  "license": "MIT"
+}

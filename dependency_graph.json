@@ -1,0 +1,495 @@
+{
+  "nodes": [
+    {
+      "id": "AI Powered X-Ray Report Generator\\app.py",
+      "type": "python_file"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\classifier.py",
+      "type": "python_file"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\report_generator.py",
+      "type": "python_file"
+    },
+    {
+      "id": "README.md",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\config",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\description",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\HEAD",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\index",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\packed-refs",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\applypatch-msg.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\commit-msg.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\fsmonitor-watchman.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\post-update.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\pre-applypatch.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\pre-commit.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\pre-merge-commit.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\pre-push.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\pre-rebase.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\pre-receive.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\prepare-commit-msg.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\push-to-checkout.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\sendemail-validate.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\hooks\\update.sample",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\info\\exclude",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\logs\\HEAD",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\logs\\refs\\heads\\main",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\logs\\refs\\remotes\\origin\\HEAD",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\objects\\pack\\pack-fbecce4df0034b9ab79a3a067171ba47b7eb5a56.idx",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\objects\\pack\\pack-fbecce4df0034b9ab79a3a067171ba47b7eb5a56.pack",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\objects\\pack\\pack-fbecce4df0034b9ab79a3a067171ba47b7eb5a56.rev",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\refs\\heads\\main",
+      "type": "data_file"
+    },
+    {
+      "id": ".git\\refs\\remotes\\origin\\HEAD",
+      "type": "data_file"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\covid_classifier.pth",
+      "type": "data_file"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\requirements.txt",
+      "type": "data_file"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\app.py::main",
+      "type": "function",
+      "file": "AI Powered X-Ray Report Generator\\app.py",
+      "name": "main"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\classifier.py::predict_class",
+      "type": "function",
+      "file": "AI Powered X-Ray Report Generator\\classifier.py",
+      "name": "predict_class"
+    },
+    {
+      "id": "AI Powered X-Ray Report Generator\\report_generator.py::generate_report",
+      "type": "function",
+      "file": "AI Powered X-Ray Report Generator\\report_generator.py",
+      "name": "generate_report"
+    },
+    {
+      "id": "UNDEF::set_page_config",
+      "type": "function",
+      "defined": false,
+      "name": "set_page_config"
+    },
+    {
+      "id": "UNDEF::title",
+      "type": "function",
+      "defined": false,
+      "name": "title"
+    },
+    {
+      "id": "UNDEF::file_uploader",
+      "type": "function",
+      "defined": false,
+      "name": "file_uploader"
+    },
+    {
+      "id": "UNDEF::image",
+      "type": "function",
+      "defined": false,
+      "name": "image"
+    },
+    {
+      "id": "UNDEF::open",
+      "type": "function",
+      "defined": false,
+      "name": "open"
+    },
+    {
+      "id": "UNDEF::write",
+      "type": "function",
+      "defined": false,
+      "name": "write"
+    },
+    {
+      "id": "UNDEF::read",
+      "type": "function",
+      "defined": false,
+      "name": "read"
+    },
+    {
+      "id": "UNDEF::spinner",
+      "type": "function",
+      "defined": false,
+      "name": "spinner"
+    },
+    {
+      "id": "UNDEF::success",
+      "type": "function",
+      "defined": false,
+      "name": "success"
+    },
+    {
+      "id": "UNDEF::subheader",
+      "type": "function",
+      "defined": false,
+      "name": "subheader"
+    },
+    {
+      "id": "UNDEF::mobilenet_v2",
+      "type": "function",
+      "defined": false,
+      "name": "mobilenet_v2"
+    },
+    {
+      "id": "UNDEF::Linear",
+      "type": "function",
+      "defined": false,
+      "name": "Linear"
+    },
+    {
+      "id": "UNDEF::load_state_dict",
+      "type": "function",
+      "defined": false,
+      "name": "load_state_dict"
+    },
+    {
+      "id": "UNDEF::load",
+      "type": "function",
+      "defined": false,
+      "name": "load"
+    },
+    {
+      "id": "UNDEF::eval",
+      "type": "function",
+      "defined": false,
+      "name": "eval"
+    },
+    {
+      "id": "UNDEF::Compose",
+      "type": "function",
+      "defined": false,
+      "name": "Compose"
+    },
+    {
+      "id": "UNDEF::Resize",
+      "type": "function",
+      "defined": false,
+      "name": "Resize"
+    },
+    {
+      "id": "UNDEF::ToTensor",
+      "type": "function",
+      "defined": false,
+      "name": "ToTensor"
+    },
+    {
+      "id": "UNDEF::convert",
+      "type": "function",
+      "defined": false,
+      "name": "convert"
+    },
+    {
+      "id": "UNDEF::unsqueeze",
+      "type": "function",
+      "defined": false,
+      "name": "unsqueeze"
+    },
+    {
+      "id": "UNDEF::transform",
+      "type": "function",
+      "defined": false,
+      "name": "transform"
+    },
+    {
+      "id": "UNDEF::no_grad",
+      "type": "function",
+      "defined": false,
+      "name": "no_grad"
+    },
+    {
+      "id": "UNDEF::model",
+      "type": "function",
+      "defined": false,
+      "name": "model"
+    },
+    {
+      "id": "UNDEF::item",
+      "type": "function",
+      "defined": false,
+      "name": "item"
+    },
+    {
+      "id": "UNDEF::argmax",
+      "type": "function",
+      "defined": false,
+      "name": "argmax"
+    },
+    {
+      "id": "UNDEF::pipeline",
+      "type": "function",
+      "defined": false,
+      "name": "pipeline"
+    },
+    {
+      "id": "UNDEF::get",
+      "type": "function",
+      "defined": false,
+      "name": "get"
+    },
+    {
+      "id": "temp.jpg",
+      "type": "data_file"
+    },
+    {
+      "id": "covid_classifier.pth",
+      "type": "data_file"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::set_page_config",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::title",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::file_uploader",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::image",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::open",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::write",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::read",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::spinner",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "AI Powered X-Ray Report Generator\\classifier.py::predict_class",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::success",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "UNDEF::subheader",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "AI Powered X-Ray Report Generator\\report_generator.py::generate_report",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "AI Powered X-Ray Report Generator\\app.py::main",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\app.py",
+      "target": "temp.jpg",
+      "relation": "READ"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::mobilenet_v2",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::Linear",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::load_state_dict",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::load",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::eval",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::Compose",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::Resize",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::ToTensor",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::convert",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::open",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::unsqueeze",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::transform",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::no_grad",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::model",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::item",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "UNDEF::argmax",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\classifier.py",
+      "target": "covid_classifier.pth",
+      "relation": "READ"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\report_generator.py",
+      "target": "UNDEF::pipeline",
+      "relation": "CALLS"
+    },
+    {
+      "source": "AI Powered X-Ray Report Generator\\report_generator.py",
+      "target": "UNDEF::get",
+      "relation": "CALLS"
+    }
+  ]
+}
